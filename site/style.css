@@ -14,15 +14,16 @@
     height: 90vh;
 }
 .main h1{
-    padding-top: 20px;
+    padding-top: 5px;
     font-size: 40px;
-    letter-spacing: 1px;
+    letter-spacing: 1px;    
     text-align: center;
     
 }
 .mainhead p {
-    padding-top: 10px;
+    padding-top: 5px;
     font-size: 20px;
+    font-weight: bold;
     letter-spacing: .5px;
     text-align: center;
 }
@@ -44,5 +45,20 @@
     margin-left: 20px;
 }
 #sex-label {
+    margin-left: 20px;
+}
+#form-items p{
+    margin-left: 20px;
+}
+.radio {
+    margin-left: 20px;
+}
+.chkbx {
+    margin-left: 20px;
+}
+.comme {
+    margin-left: 20px;
+}
+.btn {
     margin-left: 20px;
 }

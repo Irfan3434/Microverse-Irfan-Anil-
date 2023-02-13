@@ -10,19 +10,19 @@
 	<div class="main">
 		<div class="mainhead">
  		<h1 id="title">Survey form for our product</h1>
-		<p id="description">Please give us your feed back</p>
+		<p id="description">Please give us your feedback</p>
 		</div>
 		<form id="survey-form">
 			<div id="form-items">
-				<label id="name-label" for="name">Name</label>
+				<label id="name-label" for="name">Name :</label>
 				<input id="name" type="text" name="name" placeholder="Enter your Name" required>
 			</div>
 			<div id="form-items"><br>
-				<label id="email-label" for="email">email</label>
+				<label id="email-label" for="email">Email  :</label>
 				<input id="email" type="email" placeholder="Enter your email" required >
 			</div>
 			<div id="form-items"><br>
-				<label id="number-label" for="number">number</label>
+				<label id="number-label" for="number">Number :</label>
 				<input id="number" type="number" placeholder="Enter number" required>			
 			</div>
 			<div id="form-items"><br>
@@ -33,38 +33,38 @@
 					<option value="Female">Female</option>
 				</select>
 				<div id="form-items">
-					<p>Would you recommend our product to your friends?</p>
+					<br><p>Would you recommend our product to your friends?</p>
 					<label>
-						<input type="radio" name="recommend" value="yes" checked />Yes
+						<input class="radio" type="radio" name="recommend" value="yes" checked />Yes
 					</label>
 					<label>
-						<input type="radio" name="recommend" value="no" />No
+						<input class="radio" type="radio" name="recommend" value="no" />No
 					</label>
 					<label>
-						<input type="radio" name="recommend" value="maybe" />May be
+						<input class="radio" type="radio" name="recommend" value="maybe" />May be
 					</label>
 				</div>
 				<div id="form-items">
-					<p>How you came to know about our product?</p>
+					<br><p>How you came to know about our product?</p>
 					<label>
-						<input name="tvad" value="tvad" type="checkbox" />TV Advertisement
+						<input class="chkbx" name="tvad" value="tvad" type="checkbox" />TV Advertisement
 					</label>
 					<label>
-						<input name="newsad" value="newsad" type="checkbox" />News Paper Advertisement
+						<input class="chkbx" name="newsad" value="newsad" type="checkbox" />News Paper Advertisement
 					</label>
 					<label>
-						<input name="socialad" value="socialad" type="checkbox" />Social Media Advertisement
+						<input class="chkbx" name="socialad" value="socialad" type="checkbox" />Social Media Advertisement
 					</label>
 					<label>
-						<input name="shopad" value="shopad" type="checkbox" />from Shopkeeper
+						<input class="chkbx" name="shopad" value="shopad" type="checkbox" />from Shopkeeper
 					</label>					
 				</div>
 				<div id="form-items">
-					<p>Your suggestion to improve our product quality</p>
-					<textarea name="comment" id="comment" cols="50" rows="5" placeholder="Enter your comments here"></textarea>
+					<br><p>Your suggestion to improve our product quality</p>
+					<textarea class="comme" name="comment" id="comment" cols="50" rows="5" placeholder="Enter your comments here"></textarea>
 				</div>
 				<div id="form-items">
-					<button type="submit" id="submit">Submit</button>
+					<button class="btn" type="submit" id="submit">Submit</button>
 				</div>
 			</div>
 		</form>
